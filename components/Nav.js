@@ -26,8 +26,23 @@ export const navData = [
   },
 ];
 
+import Link from 'next/link'
+import {useRouter} from 'next/router'
+
 const Nav = () => {
-  return <nav>nav</nav>;
+  return (
+    <nav className='flex flex-col items-center xl:justify-center gap-y-4 fixed bg-red-500/30 p-20'>
+      {}
+      <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-80 bg-red-200/10 xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
+        {
+        navData.map((link,adress)=>{
+          return <Link href={link.path}>{link.icon}</Link>
+        })
+        }
+      </div>
+      
+    </nav>
+  );
 };
 
 export default Nav;
