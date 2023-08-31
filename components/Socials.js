@@ -3,10 +3,22 @@ import {RiInstagramLine, RiFacebookLine,RiLinkedinLine, RiGithubLine, RiYoutubeL
 
 const Socials = () => {
   return (
-    <div>
+    <div className="flex items-center gap-x-5">
       <Link href={''} className="hover:text-accent transition-all duration-300">
         <RiFacebookLine/>
       </Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300">
+        <RiInstagramLine/>
+      </Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300">
+        <RiLinkedinLine/>
+      </Link>
+      <Link href={''} className="hover:text-accent transition-all duration-300">
+        <RiGithubLine/>
+      </Link>
+      
+      
+      
     </div>
   );
 };

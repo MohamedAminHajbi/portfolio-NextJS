@@ -10,6 +10,7 @@ const Header = () => {
         <Link href={'/'}>
           <Image src={'/logo.svg'} width={220} height={48} alt="" priority={true} />
         </Link>
+        <Socials/>
       </div>
     </div>
   </header>);
