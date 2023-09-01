@@ -1,6 +1,9 @@
 import { FaHtml5, FaCss3, FaJs, FaReact, FaWordpress } from 'react-icons/fa';
 import { SiNextdotjs, SiFramer, SiAdobexd , SiAdobephotoshop  } from 'react-icons/si';
 import { FaFigma } from 'react-icons/fa';
+import React , {useState} from 'react';
+import Avatar from '../../components/Avatar'
+import Circles from '../../components/Circles'
 
 //  data
 const aboutData = [
@@ -75,7 +78,12 @@ const aboutData = [
 ];
 
 const About = () => {
-  return <div>About</div>;
+  const [index , setIndex] = useState(0);
+  return(
+  <div>
+    <Circles/>
+  </div>
+  );
 };
 
 export default About;
