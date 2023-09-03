@@ -104,13 +104,22 @@ const About = () => {
             })
           }
         </div>
-        <div>
+        <div className='bg-pink-400/10 py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start'>
           {
             aboutData[index].info.map((item,itemIndex) => {
               return(
                 <div key={itemIndex}>
                   <div>
                     {item.title}
+                  </div>
+                  <div className='hidden md:flex'>-</div>
+                  <div>{item.stage}</div>
+                  <div>
+                    {
+                      item.icons.map((icon,iconIndex) => {
+                        return (<div>{icon}</div>)
+                      })
+                    }
                   </div>
                 </div>
               )
