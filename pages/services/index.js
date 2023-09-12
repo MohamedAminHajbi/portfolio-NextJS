@@ -11,14 +11,17 @@ const Services = () => {
     <div className='container mx-auto'>
       <div className='flex flex-col xl:flex-row gap-x-8'>
         <div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0'>
-          <h2 className='h2 xl:mt-8'>
+          <motion.h2 variants={fadeIn('down', 0.3)} initial='hidden' animate='show' exit='hidden' className='h2 xl:mt-8'>
             My services <span className='text-accent'>.</span>
-          </h2>
-          <p className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
+          </motion.h2>
+          <motion.p variants={fadeIn('up', 0.4)} initial='hidden' animate='show' exit='hidden' className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
             Eu nisi Lorem ut voluptate et enim ad duis dolor ea aliquip. Excepteur nostrud nostrud eiusmod minim cillum esse id aute do. Dolore veniam nulla officia dolore sunt pariatur consequat. Esse laboris aliqua laboris ex ut est. Ullamco non aliqua labore minim eu ea et ea occaecat officia.
-          </p>
+          </motion.p>
         </div>
-        <ServiceSlider/>
+        <motion.div variants={fadeIn('left', 0.5)} initial='hidden' animate='show' exit='hidden' className='w-full xl:max-w-[65%]'>
+          <ServiceSlider/>
+        </motion.div>
+        
       </div>
     </div>
     <Bulb/>
