@@ -1,5 +1,9 @@
 import {RxCrop,RxPencil2,RxDesktop,RxReader,RxRocket} from 'react-icons/rx';
-
+import {SwiperSlide , Swiper} from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/free-mode'
+import 'swiper/css/pagination'
+import { FreeMode , Pagination } from 'swiper';
 // data
 
 const serviceData = [
@@ -31,7 +35,32 @@ const serviceData = [
 ];
 
 const ServiceSlider = () => {
-  return <div>Service Slider</div>;
+  return (
+    <>
+      <Swiper breakpoints={{
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 15
+        },
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 15
+        }
+      }} pagination={{clickable: true}} freeMode= {true} modules={{FreeMode, Pagination}} className='h-[240px] sm:h-[340px]'>
+        {
+          serviceData.map((item, index) => {
+            return(
+              <SwiperSlide key={index}>
+                <div>
+                  
+                </div>
+              </SwiperSlide>
+            )
+          })
+        }
+      </Swiper>
+    </>
+  );
 };
 
 export default ServiceSlider;

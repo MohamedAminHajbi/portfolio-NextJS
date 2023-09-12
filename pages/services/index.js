@@ -18,6 +18,7 @@ const Services = () => {
             Eu nisi Lorem ut voluptate et enim ad duis dolor ea aliquip. Excepteur nostrud nostrud eiusmod minim cillum esse id aute do. Dolore veniam nulla officia dolore sunt pariatur consequat. Esse laboris aliqua laboris ex ut est. Ullamco non aliqua labore minim eu ea et ea occaecat officia.
           </p>
         </div>
+        <ServiceSlider/>
       </div>
     </div>
     <Bulb/>
