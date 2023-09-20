@@ -8,7 +8,7 @@ import { fadeIn } from '../variants'
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full">
+    <div className="bg-background/60 h-full">
       <div className="w-full h-full bg-gradiant-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:text-left h-full container mx-auto xl:pb-0 pb-20">
           <motion.h2 variants={fadeIn('down',0.2)} initial='hidden' animate='show' exit='hidden' className="h2">
@@ -24,9 +24,9 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full h-full absolute right-0 bottom-0">
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge"></div>
+        <div className="bg-none xl:bg-triangle xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge"></div>
         <ParticlesContainer/>
-        <motion.div variants={fadeIn('up',0.5)} initial='hidden' transition={{duration: 1, ease:'easeInOut'}} animate='show' exit='hidden' className="w-full h-full max-w-[537px] max-h-[478px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"><Avatar/></motion.div>
+        <motion.div variants={fadeIn('up',0.5)} initial='hidden' transition={{duration: 1, ease:'easeInOut'}} animate='show' exit='hidden' className="w-full h-full max-w-[537px] max-h-[478px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"></motion.div>
       </div>
     </div>
   );

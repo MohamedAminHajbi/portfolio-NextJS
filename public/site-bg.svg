@@ -1,34 +1,12 @@
-<svg width="1435" height="877" viewBox="0 0 1435 877" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_157_2)">
-<rect width="1435" height="877" fill="#1A1333"/>
-<g filter="url(#filter0_f_157_2)">
-<circle cx="172" cy="153" r="178" fill="#352467"/>
-</g>
-<g filter="url(#filter1_f_157_2)">
-<circle cx="1299" cy="142" r="178" fill="#352467"/>
-</g>
-<g filter="url(#filter2_f_157_2)">
-<circle cx="1082" cy="460" r="217" fill="#352467"/>
-</g>
-</g>
-<defs>
-<filter id="filter0_f_157_2" x="-356" y="-375" width="1056" height="1056" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>
-</filter>
-<filter id="filter1_f_157_2" x="771" y="-386" width="1056" height="1056" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>
-</filter>
-<filter id="filter2_f_157_2" x="515" y="-107" width="1134" height="1134" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>
-</filter>
-<clipPath id="clip0_157_2">
-<rect width="1435" height="877" fill="white"/>
-</clipPath>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1435" height="877" preserveAspectRatio="none" viewBox="0 0 1435 877">
+    <g mask="url(&quot;#SvgjsMask1087&quot;)" fill="none">
+        <rect width="1435" height="877" x="0" y="0" fill="rgba(9, 10, 16, 1)"></rect>
+        <path d="M0,327.984C63.794,321.811,124.029,309.376,183.554,285.616C255.681,256.827,345.216,242.735,383.232,175.016C421.369,107.083,382.968,23.612,374.089,-53.786C364.917,-133.733,389.552,-231.752,330.319,-286.223C270.248,-341.465,169.877,-288.915,91.971,-313.223C11.928,-338.198,-42.35,-436.37,-125.833,-428.549C-208.978,-420.76,-273.112,-345.787,-317.238,-274.888C-358.083,-209.261,-355.788,-128.972,-360.313,-51.805C-364.475,19.177,-369.283,90.549,-342.528,156.427C-315.06,224.061,-273.166,290.802,-207.896,323.493C-144.639,355.176,-70.419,334.798,0,327.984" fill="#06070a"></path>
+        <path d="M1435 1462.771C1551.453 1469.3319999999999 1671.466 1460.4569999999999 1772.3980000000001 1402.001 1875.729 1342.156 1949.58 1243.2640000000001 2000.5 1135.255 2051.848 1026.338 2093.307 903.177 2062.432 786.789 2032.536 674.09 1913.212 616.858 1839.104 526.842 1762.475 433.763 1731.754 292.659 1619.473 248.74400000000003 1506.3 204.48000000000002 1371.148 241.221 1266.415 302.852 1171.126 358.92499999999995 1151.733 485.276 1077.808 567.491 1001.832 651.987 854.301 679.13 828.562 789.807 803.017 899.65 903.717 995.76 954.8299999999999 1096.286 1003.604 1192.211 1035.6390000000001 1300.019 1121.183 1365.309 1210.054 1433.1390000000001 1323.378 1456.482 1435 1462.771" fill="#0c0e16"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1087">
+            <rect width="1435" height="877" fill="#ffffff"></rect>
+        </mask>
+    </defs>
 </svg>
