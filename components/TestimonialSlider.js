@@ -3,7 +3,7 @@ import {SwiperSlide , Swiper} from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
-import { Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 import Image from 'next/image';
 
 // testimonial data
@@ -34,26 +34,26 @@ const testimonialData = [
 const TestimonialSlider = () => {
   return (
     <>
-      <Swiper spaceBetween={10} pagination={{clickable: true}} modules={[ Pagination]} className='h-[440px] sm:h-[540px]'>
+      <Swiper navigation={true} pagination={{clickable: true}} modules={[Navigation , Pagination]} className='h-[400px]'>
         {
           testimonialData.map((person, index) => {
             return(
               <SwiperSlide key={index}>
-                <div className=''>
-                  <div key={index}>
-                    <div className=''>
-                          <div className=''>
-                            Avatar
+                <div className='flex flex-col items-center md:flex-row gap-x-8 h-full px-16'>
+                  <div className='w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0'>
+                    <div className='flex flex-col justify-center text-center'>
+                          <div className='mb-2 mx-auto'>
+                            <Image src={person.image} width={100} height={100} alt=''/>
                           </div>
-                          <div className=''>
-                            Name
+                          <div className='text-lg'>
+                            {person.name}
                           </div>
-                          <div className=''>
+                          <div className='text-[12px] uppercase font-extralight tracking-widest'>
                             Position
                           </div>
                     </div>
                   </div>
-                  <div className='bg-pink-500/10 flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20'>
+                  <div className='flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20gu'>
                     <div className='mb-4'>
                     <FaQuoteLeft className='text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0'/>
                     </div>
