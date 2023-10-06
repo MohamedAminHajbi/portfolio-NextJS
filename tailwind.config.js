@@ -29,7 +29,7 @@ module.exports = {
         text: "#e2e3ee"
       },
       backgroundImage: {
-        triangle: 'url("/bg-triangle.jpg")',
+        triangle: 'url("/bg.jpg")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',

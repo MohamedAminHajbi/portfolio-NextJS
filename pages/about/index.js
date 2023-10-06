@@ -84,7 +84,7 @@ const About = () => {
   const [index , setIndex] = useState(0);
   console.log(index);
   return(
-  <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+  <div className='h-full bg-background/30 py-32 text-center xl:text-left'>
     <Circles/>
     <motion.div variants={fadeIn('right', 0.2)} initial='hidden' animate='show' exit="hidden" className='hidden xl:flex absolute bottom-0 -left-[330px]'>
       <Avatar/>
